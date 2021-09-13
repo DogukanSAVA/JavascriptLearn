@@ -9,3 +9,5 @@
 4- Navbar [https://navbarjs.web.app/]
 
 5- Sidebar [https://navbarjs.web.app/]
+
+6- Modal [https://modal-db73d.web.app/]
