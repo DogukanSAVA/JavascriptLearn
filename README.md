@@ -7,3 +7,5 @@
 3- Reviews [https://reviews-c3090.web.app/]
 
 4- Navbar [https://navbarjs.web.app/]
+
+5- Sidebar [https://navbarjs.web.app/]
