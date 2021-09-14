@@ -80,8 +80,10 @@ const menu = [
             desc: `skateboard fam synth authentic semiotics. Live-edge lyft af, edison bulb yuccie crucifix microdosing.`,
           },
         ];
+        // get parent element
         const sectionCenter = document.querySelector(".section-center");
         const btnContainer = document.querySelector(".btn-container");
+        // display all items when page loads
         window.addEventListener("DOMContentLoaded", function () {
           diplayMenuItems(menu);
           displayMenuButtons();
@@ -89,6 +91,7 @@ const menu = [
         
         function diplayMenuItems(menuItems) {
           let displayMenu = menuItems.map(function (item) {
+            // console.log(item);
         
             return `<article class="menu-item">
                   <img src=${item.img} alt=${item.title} class="photo" />
@@ -104,6 +107,7 @@ const menu = [
                 </article>`;
           });
           displayMenu = displayMenu.join("");
+          // console.log(displayMenu);
         
           sectionCenter.innerHTML = displayMenu;
         }
@@ -131,6 +135,7 @@ const menu = [
         
           filterBtns.forEach(function (btn) {
             btn.addEventListener("click", function (e) {
+              // console.log(e.currentTarget.dataset);
               const category = e.currentTarget.dataset.id;
               const menuCategory = menu.filter(function (menuItem) {
                 if (menuItem.category === category) {
