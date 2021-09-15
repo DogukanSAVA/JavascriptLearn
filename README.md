@@ -21,3 +21,5 @@
 10- Scroll [https://scroll-5ca3b.web.app/]
 
 11- TabsProject [https://tabs-efc1a.web.app/]
+
+12- LoremProject [https://loremipsum-703a1.web.app/]
