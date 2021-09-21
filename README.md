@@ -5,10 +5,15 @@ Learn JavaScript - Full Course --
 Topics
 
 *HTML5
+
 *CSS
+
 *JavaScript
+
 *Flexbox
+
 *Responsive Design
+
 *Firebase Hosting
 
 1- Color Flipper demo [https://fliper-911a2.web.app/]  Color flipper intended use to change the background color by pressing the button..
